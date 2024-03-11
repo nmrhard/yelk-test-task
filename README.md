@@ -1,30 +1,37 @@
-# Search
+# Project Description:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Title: Track Information By Artist App
 
-Currently, two official plugins are available:
+## Description:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Track Information by ARtist App is a web application developed using Vite, TypeScript, React, and Tailwind CSS. It provides users with the ability to search for artists and view detailed information about theirs track, including their albums and tracks.
 
-## Expanding the ESLint configuration
+## Features:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    Search Functionality: Users can search for artists by entering their name in the search bar.
+    Artist Listings: The app displays a list of track matching the search query, including their album information and cover images.
+    Track Information: Users can click on an artist to view detailed information about their tracks, including titles, album names, artist names, and durations.
+    Responsive Design: The app is designed to be responsive and works well on different screen sizes and devices.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+    Vite: A fast build tool that provides an efficient development experience for modern web projects.
+    TypeScript: A statically typed superset of JavaScript that enhances code quality and developer productivity.
+    React: A popular JavaScript library for building user interfaces.
+    Tailwind CSS: A utility-first CSS framework for creating custom designs quickly by applying pre-defined classes directly to HTML elements.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation:
+
+    Clone the repository: git clone https://github.com/nmrhard/yelk-test-task.git
+    Install dependencies: npm install
+    Start the development server: npm run dev
+
+## Usage:
+
+    Open the browser and navigate to the provided URL.
+    Enter the name of the artist you want to search for in the search bar.
+    Click on the artist to view detailed information about their tracks.
+
+## License:
+
+This project is licensed under the MIT License.
